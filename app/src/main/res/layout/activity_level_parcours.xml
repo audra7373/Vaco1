@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/avenu"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/r"
+        tools:layout_editor_absoluteX="-37dp"
+        tools:layout_editor_absoluteY="-176dp">
+
+        <ImageView
+            android:id="@+id/level1"
+            android:layout_width="75dp"
+            android:layout_height="69dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.193"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.974"
+            app:srcCompat="@drawable/lev" />
+
+        <ImageView
+            android:id="@+id/level2"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level3"
+            android:layout_width="65dp"
+            android:layout_height="76dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.739"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.91"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level4"
+            android:layout_width="60dp"
+            android:layout_height="63dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.846"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.745"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level5"
+            android:layout_width="82dp"
+            android:layout_height="74dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.576"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level6"
+            android:layout_width="75dp"
+            android:layout_height="74dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.292"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level7"
+            android:layout_width="73dp"
+            android:layout_height="84dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.411"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/level8"
+            android:layout_width="67dp"
+            android:layout_height="85dp"
+            app:layout_constraintBottom_toTopOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.79"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.085"
+            app:srcCompat="@drawable/levvv" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="109dp"
+            android:layout_height="84dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024"
+            app:srcCompat="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="83dp"
+            android:layout_height="87dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.579"
+            app:srcCompat="@drawable/clapperboard" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="55dp"
+            android:layout_height="44dp"
+            app:layout_constraintBottom_toBottomOf="@+id/level1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.631"
+            app:srcCompat="@drawable/goldpot" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

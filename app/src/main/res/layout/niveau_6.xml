@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.5"
+    android:background="@drawable/graden"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linLay"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/grid_round"
+        android:backgroundTint="@color/purple_200"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score-"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pause"
+            android:layout_width="36dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="2dp"
+            app:srcCompat="@drawable/pause" />
+
+        <ImageView
+            android:id="@+id/parametres"
+            android:layout_width="44dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/setings" />
+
+        <ImageView
+            android:id="@+id/lev"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/carte"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="228dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="136dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/grid_round"
+            android:backgroundTint="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/add_coin"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/coin" />
+
+            <TextView
+                android:id="@+id/coins"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="648dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/board"
+            android:layout_width="366dp"
+            android:layout_height="459dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/grid_round"
+            android:orientation="horizontal"
+            android:padding="-30dp"
+            android:radius="20dp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@drawable/grid_round"
+            android:backgroundTint="@color/purple_200"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:text="coups"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+
+            <TextView
+                android:id="@+id/coups"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/green"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/vert" />
+
+            <ImageView
+                android:id="@+id/bleu"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/bleu" />
+
+            <ImageView
+                android:id="@+id/red"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/rouge" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
